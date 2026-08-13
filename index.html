@@ -6,14 +6,14 @@
 <title>ZYNC Electronics — A2K Digital Studio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{
   --bg:#0b0f14; --surface:#131920; --surface-2:#1a222b; --border:#232d38;
   --ink:#eef4f5; --ink-dim:#8fa0aa; --accent:#00e5c7; --accent-dim:#00a896;
   --shadow:rgba(0,0,0,0.5);
-  --font-hero:'Space Grotesk',system-ui,sans-serif;
-  --font-body:'Inter',system-ui,sans-serif;
+  --font-hero:'Chakra Petch',system-ui,sans-serif;
+  --font-body:'Hanken Grotesk',system-ui,sans-serif;
   --font-mono:'IBM Plex Mono',ui-monospace,monospace;
 }
 *{box-sizing:border-box;}
@@ -22,12 +22,6 @@ body{
   margin:0; background:var(--bg); color:var(--ink);
   font-family:var(--font-body); font-weight:400;
   line-height:1.55; -webkit-font-smoothing:antialiased;
-  background-image:
-    linear-gradient(var(--border) 1px, transparent 1px),
-    linear-gradient(90deg, var(--border) 1px, transparent 1px);
-  background-size:42px 42px;
-  background-attachment:fixed;
-  background-position:center;
 }
 a{color:inherit;}
 img,svg{display:block; max-width:100%;}
@@ -111,7 +105,7 @@ h1 em{font-style:normal; color:var(--accent);}
 .steps p{margin:0; font-size:14.5px; color:var(--ink-dim);}
 .steps p b{color:var(--ink); font-weight:600;}
 .note{
-  margin-top:22px; padding:12px 14px; background:var(--surface-2); border-left:2px solid var(--accent); border-radius:0 6px 6px 0;
+  margin-top:22px; padding:12px 14px; background:var(--surface-2); border-radius:6px;
   font-size:12.5px; color:var(--ink-dim); font-family:var(--font-mono); line-height:1.6;
 }
 
